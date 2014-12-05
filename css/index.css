@@ -27,7 +27,7 @@ body{
 .wrap-left .bot-model{position: relative;z-index:501;top: -75px;left: -29px;}
 
 /*首页*/
-.wrap-right .main-index{display:none;height:796px;background: url("../images/index-1.png") center 0 no-repeat;}
+.wrap-right .main-index{display:block;height:796px;background: url("../images/index-1.png") center 0 no-repeat;}
 .main-index .malemode-1{position: relative;top:28px;left:-607px;z-index: 499;}
 .main-index .malemode-1 img{}
 .main-index .cont-txt{float: left; width: 518px; font-family: "微软雅黑"; position: relative;top: 500px;left: 387px;}
@@ -37,7 +37,7 @@ body{
 
 
 /*长袖衫*/
-.wrap-shirt{position: relative;display: block;}
+.wrap-shirt{position: relative;display: none;}
    /*第一页*/
 .wrap-shirt .long-shirt{display:none;width: 1149px;height: 627px;overflow:hidden;background: rgba(50,60,80,.2)}
 .long-shirt .shirt-list-box{list-style: none;width: 1160px;}
@@ -53,14 +53,14 @@ body{
 /*第二页*/
 .long-shirt-two{display:block;width: 1149px;height: 627px;}
 .long-shirt-two .changable-shirt{float: left;margin-top: 182px;margin-right: 47px;}
-.long-shirt-two .shirt-recommend{float: left}
+.long-shirt-two .shirt-recommend{float: left;position: relative;}
 .long-shirt-two .shirt-recommend .base-shirt{float: left;margin-right: 30px;}
 .long-shirt-two .shirt-recommend .base-shirt a{}
 
 /*薄西服*/
-.wrap-suit{display: none;}
+.wrap-suit{display: none;position: relative;}
 /*第一页*/
-.wrap-suit .suit-one{display:block;width: 1149px;height: 698px;overflow:hidden;background: rgba(50,60,80,.2)}
+.wrap-suit .suit-one{display:none;width: 1149px;height: 698px;overflow:hidden;background: rgba(50,60,80,.2)}
 .suit-one .suit-box{float: left;width: 589px;overflow: hidden;height: auto;/*background: rgba(150,10,180,.2)*/}
 .suit-one .suit-box .suit-list{width: 600px;list-style: none;}
 .suit-one .suit-box .suit-list li{float: left;margin-right:14px;margin-bottom:13px;width:282px;height: 336px; background-color: #f3e8d1;}
@@ -71,7 +71,7 @@ body{
 .suit-one .suit-des .sui-img{position: relative; top: -263px;left: 323px;}
 .suit-one .suit-des .sui-img a{}
 /*第二页*/
-.wrap-suit  .suit-two{display:none;width: 1149px;height: 698px;overflow:hidden;background: rgba(50,60,80,.2)}
+.wrap-suit  .suit-two{display:block;width: 1149px;height: 698px;overflow:hidden;background: rgba(50,60,80,.2)}
 .wrap-suit  .suit-two .suit-box{float: left;margin-right: 18px;}
 .wrap-suit  .suit-two .suit-box .base-suit{float: left;position: relative; top: 95px;margin-right: 60px}
 .wrap-suit  .suit-two .suit-box .base-suit a{}
@@ -80,9 +80,9 @@ body{
 .wrap-suit  .suit-two .suit-txt a{}
 .wrap-suit  .suit-two .suit-txt a img{}
 /*风衣*/
-.windbreaker{display: none;}
+.windbreaker{display: none;position: relative;}
 /*第一页*/
-.windbreaker .windbreaker-one{display:block;width: 1149px;height: 681px;overflow:hidden;background: rgba(50,60,80,.2)}
+.windbreaker .windbreaker-one{display:none;width: 1149px;height: 681px;overflow:hidden;background: rgba(50,60,80,.2)}
 .windbreaker-one .windbreaker-top{margin-bottom:9px;width: 998px;height: 345px;}
 .windbreaker-one .windbreaker-top .win-top-left{float: left;width: 527px;height: 336px;background-color: #eee5cf;}
 .windbreaker-one .windbreaker-top .win-top-left a{display:block;position: relative;top:-6px;left: -6px;font-size: 0;width: 527px;height: 336px;overflow: hidden;}
@@ -97,7 +97,7 @@ body{
 .windbreaker-bot .windbreaker-list li .base-windbreker a img{}
 .windbreaker .windbreaker-model{position: absolute;right:-14px;top:0;}
 /*第二页*/
-.windbreaker .windbreaker-two{display: none;width: 1149px;height: 681px;overflow:hidden;background: rgba(50,60,80,.2)}
+.windbreaker .windbreaker-two{display: block;width: 1149px;height: 681px;overflow:hidden;background: rgba(50,60,80,.2)}
 .windbreaker .windbreaker-two .windbreaker-pic-list{float: left;}
 .windbreaker-pic-list .base-windbreker{float: left;position: relative;top: 104px;}
 .windbreaker-pic-list .base-windbreker a{}
@@ -105,9 +105,9 @@ body{
 .windbreaker .windbreaker-two .windbreker-slogan{float: left;margin-top: 49px;}
 
 /*皮夹克*/
-.jacket{display: none;}
+.jacket{display: none;position: relative}
 /*第一页*/
-.jacket .jacket-one{display:block;position:relative;width: 1149px;height: 679px;margin-top: 110px;overflow:hidden;background: rgba(50,60,80,.2)}
+.jacket .jacket-one{display:none;position:relative;width: 1149px;height: 679px;margin-top: 110px;overflow:hidden;background: rgba(50,60,80,.2)}
 .jacket-one .jacket-top{width: 1149px;}
 .jacket-one .jacket-top .jacket-top-img{margin-left:23px;width: 345px;height: 344px;background-color: #fbdba8;border-radius: 50%;display: block;float: left; }
 .jacket-one .jacket-top .jacket-top-img img{position: relative;top: -6px;left:-6px;}
@@ -124,14 +124,14 @@ body{
 .jacket-bot .jacket-list .jacket-model-three .three-img{position: relative;top:-7px;left:-7px;}
 .jacket-model{position: absolute;top: -4px;right: 58px;}
 /*第二页*/
-.jacket .jacket-two{display: none;width: 1149px;height: 679px;margin-top: 110px;overflow:hidden;background: rgba(50,60,80,.2)}
+.jacket .jacket-two{display: block;width: 1149px;height: 679px;margin-top: 110px;overflow:hidden;background: rgba(50,60,80,.2)}
 .jacket .jacket-two .jacket-pic-list{float: left;}
-.jacket-pic-list .base-jacket{float: left;}
+.jacket-pic-list .base-jacket{float: left;margin-left: 87px;}
 .jacket-pic-list .base-jacket a{}
 .jacket-pic-list .base-jacket a img{}
 .jacket .windbreaker-two .base-jacket-slogan{float: left;margin-top: 49px;}
 /*配饰*/
-.ornament{display: none}
+.ornament{display: none;position: relative}
 /*第一页*/
 .ornament .ornament-one{display:block;position:relative;width: 1187px;height: 720px;margin-top: 110px;padding-top:77px;overflow:hidden;background: rgba(50,60,80,.2)}
 .ornament-one .ornament-left{float: left; width: 240px; height: 720px; position: relative;top: -77px;}
@@ -171,7 +171,7 @@ body{
 .recommend .recommend-txt .txt-des{padding-left:12px;padding-top:11px;width: 199px;height: 156px;background-color:#ffffff;font-size: 12px;line-height: 22px;color:#151515; }
 
 /*搭配*/
-.dress{display: none;}
+.dress{display: none;position: relative}
 /*第一页*/
 .dress .dress-one{display:block;width: 1149px;height: auto;overflow:hidden;}
 .dress-one .one-cont{position:relative;width: 1149px;height: 800px;padding-top:30px;overflow:hidden;background: rgba(50,60,80,.2)}
@@ -218,3 +218,12 @@ body{
 .trun-page{display:none;float: right;position: absolute;bottom: 50px;right: 160px;}
 .trun-page .rturn-page{position: absolute;z-index:500;width: 46px;height: 46px;background: url("../images/return-page-ico.png") no-repeat;cursor: pointer;}
 .trun-page .next-page{position: absolute;z-index:501;top: -37px;left: 30px;width: 76px;height: 75px;background: url("../images/next-page-ico.png") no-repeat;cursor: pointer}
+
+/*移动的圆圈（价格）*/
+.base-pos-pic {position:absolute;display: none;}
+.pic-1{top: 559px;left: -73px;}
+.pic-2{top: 558px;left: 193px;}
+.pic-3{top: 558px;left: 452px;}
+
+/*导航点击后公共的样式*/
+.nav-hover{background-color: #81511c;border-radius: 15px;text-decoration: none;}
