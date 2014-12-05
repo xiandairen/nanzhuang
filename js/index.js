@@ -85,20 +85,35 @@ var pageListCont = {
             }
             //控制翻页
             $(".rturn-page").click(function(){
-                var tagPage = $(this).parent(".trun-page");
-                tagPage.parents(".base-wrap").find(".base-one").show();
-                tagPage.parents(".base-wrap").find(".base-two").hide();
-                tagPage.parents(".base-wrap").find(".base-pos-pic").hide();
+                var tagPage = $(this).parent(".trun-page").parents(".base-wrap");
+                tagPage.find(".base-one").show();
+                tagPage.find(".base-two").hide();
+                tagPage.find(".base-pos-pic").hide();
 
             })
             $(".next-page").click(function(){
-                var tagPage = $(this).parent(".trun-page");
-                tagPage.parents(".base-wrap").find(".base-one").hide();
-                tagPage.parents(".base-wrap").find(".base-two").show();
-                tagPage.parents(".base-wrap").find(".base-pos-pic").show();
+                var tagPage = $(this).parent(".trun-page").parents(".base-wrap");
+                tagPage.find(".base-one").hide();
+                tagPage.find(".base-two").show();
+                tagPage.find(".base-pos-pic").show();
+                callback()
             })
             //价格动画
-
+            var prictList = [
+                function(){
+                    $(".pic-1").delay(10).animate({top:"-=10px"},30,callback)
+                },
+                function(){
+                    $(".pic-2").delay(10).animate({top:"-=10px"},30,callback)
+                },
+                function(){
+                    $(".pic-3").delay(10).animate({top:"-=10px"},30,callback)
+                }
+            ]
+            $(".base-two").queue("slideList",prictList);
+            var callback= function(){
+                $(".base-two").dequeue('slideList');
+            }
 
         })
     })
