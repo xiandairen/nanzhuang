@@ -201,4 +201,30 @@ body{
 .one-cont .dress-right{position: absolute;top: 227px; right: 0;width: 457px;height: 454px;background-color: #ebceaf;border-radius: 50%;}
 .one-cont .dress-right a{}
 .one-cont .dress-right a img{width: 457px;height: 454px;position: absolute;left: -6px;top: -6px;}
+/*第二页*/
+.dress-two{width: 1149px;height: auto;overflow:hidden;}
+.dress-two .two-cont{position:relative;width: 1149px;height: 800px;padding-top:30px;overflow:hidden;background: rgba(50,60,80,.2)}
+.two-cont .dress-model-left-2{position: absolute;}
+.two-cont .dress-title-2{position: absolute;left: 314px;top: 89px;}
+.two-cont .dress-trousers-2{position: absolute;left: 284px;top: 240px;}
+.two-cont .dress-waistcoat-2{position: absolute;top: 232px;left: 437px;}
+.two-cont .dress-waistcoat-3{position: absolute;top: 229px;left: 606px;}
+.two-cont .dress-waistcoat-4{position: absolute;top: 103px;left: 765px;}
+.two-cont .Handkerchief{position: absolute;left: 1000px;top: 134px;}
+.two-cont .Bracelet{position: absolute;top: 526px;left: 331px;}
+.two-cont .Shoes{position: absolute;top: 436px;left: 500px;}
+.two-cont .dress-waistcoat-5{position: absolute;top: 371px;left: 694px;}
+.two-cont .dress-trousers-3{position: absolute;top: 339px;left: 940px;}
 
+.base-pic{position:absolute;font-size: 14px;color: #000000;text-align: center;line-height: 15px;}
+.base-pic span{display: block;width: 108px;height: 15px;border-bottom: 1px solid #000000;font-weight: 500;}
+.base-pic i{font-style: inherit;line-height: 15px;}
+.dress-trousers-2-pic{top: 180px;left: 84px;}
+.dress-waistcoat-2-pic{top: 11px;left: -58px;}
+.dress-waistcoat-3-pic{top: 110px;left: 57px;}
+.dress-waistcoat-4-pic{top: 0;left: 124px;}
+.Handkerchief-pic{left: 7px;}
+.Bracelet-pic{top:100px;}
+.Shoes-pic{top: 225px;left: 16px;}
+.dress-waistcoat-5-pic{top: 174px;left: 68px;}
+.dress-trousers-3-pic{top: 193px;left: 50px;}
