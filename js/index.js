@@ -21,51 +21,52 @@ var pageListCont = {
             }
             var page =  pageCont[i];
             page.show()//显示相应的内容页
-            switch (page){//定位“返回”和“下一页”的位置
+            switch (page){//定位“返回”和“下一页”的位置,显示价格；
                 case pageListCont.WrapShirt:
                     var ele = pageListCont.WrapShirt;
                     var obj1 = {x:276,y:558};
                     var obj2 = {x:533,y:559};
                     var obj3 = {x:789,y:559};
-                    PriceMove(ele,obj1,obj2,obj3)
+                    PriceMove(ele,obj1,obj2,obj3);
                     break
                 case pageListCont.wrapSuit:
                     var ele = pageListCont.wrapSuit;
                     var obj1 = {x:40,y:600};
                     var obj2 = {x:250,y:600};
                     var obj3 = {x:500,y:600};
-                    PriceMove(ele,obj1,obj2,obj3)
+                    PriceMove(ele,obj1,obj2,obj3);
                     break
                 case pageListCont.windBreaker:
                     var ele =  pageListCont.windBreaker;
                     var obj1 = {x:30,y:500};
                     var obj2 = {x:300,y:500};
                     var obj3 = {x:500,y:500};
-                    PriceMove(ele,obj1,obj2,obj3)
+                    PriceMove(ele,obj1,obj2,obj3);
                     break;
                 case pageListCont.Jacket:
                     var ele = pageListCont.Jacket;
                     var obj1 = {x:50,y:500};
                     var obj2 = {x:400,y:500};
                     var obj3 = {x:700,y:500};
-                    PriceMove(ele,obj1,obj2,obj3)
+                    PriceMove(ele,obj1,obj2,obj3);
                     break;
                 case pageListCont.Ornament:
                     var ele = pageListCont.Ornament;
                     var obj1 = {x:500,y:200};
                     var obj2 = {x:500,y:200};
                     var obj3 = {x:500,y:200};
-                    PriceMove(ele,obj1,obj2,obj3)
+                    PriceMove(ele,obj1,obj2,obj3);
                     break;
                 case pageListCont.Dress:
                     var ele = pageListCont.Dress;
                     var obj1 = {x:500,y:200};
                     var obj2 = {x:500,y:200};
                     var obj3 = {x:500,y:200};
-                    PriceMove(ele,obj1,obj2,obj3)
+                    PriceMove(ele,obj1,obj2,obj3);
                     break;
             }
             function PriceMove(that,obj1,obj2,obj3){
+                that.find(".trun-page").show();
                 that.find(".pic-1").css({
                     display:"block",
                     left:obj1.x,
@@ -82,6 +83,22 @@ var pageListCont = {
                     top:obj3.y
                 })
             }
+            //控制翻页
+            $(".rturn-page").click(function(){
+                var tagPage = $(this).parent(".trun-page");
+                tagPage.parents(".base-wrap").find(".base-one").show();
+                tagPage.parents(".base-wrap").find(".base-two").hide();
+                tagPage.parents(".base-wrap").find(".base-pos-pic").hide();
+
+            })
+            $(".next-page").click(function(){
+                var tagPage = $(this).parent(".trun-page");
+                tagPage.parents(".base-wrap").find(".base-one").hide();
+                tagPage.parents(".base-wrap").find(".base-two").show();
+                tagPage.parents(".base-wrap").find(".base-pos-pic").show();
+            })
+            //价格动画
+
 
         })
     })
