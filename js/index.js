@@ -18,9 +18,14 @@ var pageListCont = {
             $(this).find("a").addClass("nav-hover");
             for(var n=0;n<pageCont.length;n++){
                 pageCont[n].hide().find(".base-pos-pic").hide();
+                $(".base-pos-pic").css({
+                    "visibility":" hidden"
+                })
             }
             var page =  pageCont[i];
             page.show()//显示相应的内容页
+            page.find(".base-one").show();
+            page.find(".base-two").hide();
             switch (page){//定位“返回”和“下一页”的位置,显示价格；
                 case pageListCont.WrapShirt:
                     var ele = pageListCont.WrapShirt;
@@ -89,6 +94,9 @@ var pageListCont = {
                 tagPage.find(".base-one").show();
                 tagPage.find(".base-two").hide();
                 tagPage.find(".base-pos-pic").hide();
+                $(".base-pos-pic").css({
+                    "visibility":" hidden"
+                })
 
             })
             $(".next-page").click(function(){
@@ -96,6 +104,10 @@ var pageListCont = {
                 tagPage.find(".base-one").hide();
                 tagPage.find(".base-two").show();
                 tagPage.find(".base-pos-pic").show();
+                $(".base-pos-pic").css({
+                    "visibility":" visible"
+                })
+
                 callback()
             })
             //价格动画
