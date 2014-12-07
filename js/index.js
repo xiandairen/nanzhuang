@@ -24,30 +24,30 @@ var pageListCont = {
             switch (page){//定位“返回”和“下一页”的位置,显示价格；
                 case pageListCont.WrapShirt:
                     var ele = pageListCont.WrapShirt;
-                    var obj1 = {x:276,y:558};
-                    var obj2 = {x:533,y:559};
-                    var obj3 = {x:789,y:559};
+                    var obj1 = {x:276,y:800};
+                    var obj2 = {x:533,y:800};
+                    var obj3 = {x:789,y:800};
                     PriceMove(ele,obj1,obj2,obj3);
                     break
                 case pageListCont.wrapSuit:
                     var ele = pageListCont.wrapSuit;
-                    var obj1 = {x:40,y:600};
-                    var obj2 = {x:250,y:600};
-                    var obj3 = {x:500,y:600};
+                    var obj1 = {x:150,y:740};
+                    var obj2 = {x:415,y:685};
+                    var obj3 = {x:680,y:770};
                     PriceMove(ele,obj1,obj2,obj3);
                     break
                 case pageListCont.windBreaker:
                     var ele =  pageListCont.windBreaker;
-                    var obj1 = {x:30,y:500};
-                    var obj2 = {x:300,y:500};
-                    var obj3 = {x:500,y:500};
+                    var obj1 = {x:160,y:755};
+                    var obj2 = {x:400,y:850};
+                    var obj3 = {x:630,y:820};
                     PriceMove(ele,obj1,obj2,obj3);
                     break;
                 case pageListCont.Jacket:
                     var ele = pageListCont.Jacket;
-                    var obj1 = {x:50,y:500};
-                    var obj2 = {x:400,y:500};
-                    var obj3 = {x:700,y:500};
+                    var obj1 = {x:185,y:647};
+                    var obj2 = {x:450,y:633};
+                    var obj3 = {x:700,y:648};
                     PriceMove(ele,obj1,obj2,obj3);
                     break;
                 case pageListCont.Ornament:
@@ -101,13 +101,13 @@ var pageListCont = {
             //价格动画
             var prictList = [
                 function(){
-                    $(".pic-1").delay(10).animate({top:"-=10px"},30,callback)
+                    $(".pic-1").delay(10).animate({top:"-=40px"},100,callback)
                 },
                 function(){
-                    $(".pic-2").delay(10).animate({top:"-=10px"},30,callback)
+                    $(".pic-2").delay(10).animate({top:"-=40px"},100,callback)
                 },
                 function(){
-                    $(".pic-3").delay(10).animate({top:"-=10px"},30,callback)
+                    $(".pic-3").delay(10).animate({top:"-=40px"},100,callback)
                 }
             ]
             $(".base-two").queue("slideList",prictList);

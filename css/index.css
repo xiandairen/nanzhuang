@@ -39,7 +39,7 @@ body{
 /*长袖衫*/
 .wrap-shirt{position: relative;display: none;}
    /*第一页*/
-.wrap-shirt .long-shirt{display:none;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
+.wrap-shirt .long-shirt{display:block;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
 .long-shirt .shirt-list-box{list-style: none;width: 1160px;}
 .long-shirt .shirt-list-box li{float: left;margin-right:15px;width: 273px;height: 469px;background-color: #eee5cf; }
 .long-shirt .shirt-list-box .base-img-box{width: 273px;height: 469px;overflow: hidden;position: relative;top:-6px;left:-6px;}
@@ -51,7 +51,7 @@ body{
 .bot .bot-txt p{float:left;font-size: 12px;color: #535353;line-height: 22px;}
 
 /*第二页*/
-.long-shirt-two{display:block;width: 1149px;height: 720px;margin-top: 110px;}
+.long-shirt-two{display:none;width: 1149px;height: 720px;margin-top: 110px;}
 .long-shirt-two .changable-shirt{float: left;margin-top: 182px;margin-right: 47px;}
 .long-shirt-two .shirt-recommend{float: left;position: relative;}
 .long-shirt-two .shirt-recommend .base-shirt{float: left;margin-right: 30px;}
@@ -60,7 +60,7 @@ body{
 /*薄西服*/
 .wrap-suit{display: none;position: relative;}
 /*第一页*/
-.wrap-suit .suit-one{display:none;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
+.wrap-suit .suit-one{display:block;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
 .suit-one .suit-box{float: left;width: 589px;overflow: hidden;height: auto;/*background: rgba(150,10,180,.2)*/}
 .suit-one .suit-box .suit-list{width: 600px;list-style: none;}
 .suit-one .suit-box .suit-list li{float: left;margin-right:14px;margin-bottom:13px;width:282px;height: 336px; background-color: #f3e8d1;}
@@ -71,18 +71,18 @@ body{
 .suit-one .suit-des .sui-img{position: relative; top: -263px;left: 323px;}
 .suit-one .suit-des .sui-img a{}
 /*第二页*/
-.wrap-suit  .suit-two{display:block;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
+.wrap-suit  .suit-two{display:none;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
 .wrap-suit  .suit-two .suit-box{float: left;margin-right: 18px;}
 .wrap-suit  .suit-two .suit-box .base-suit{float: left;position: relative; top: 95px;margin-right: 60px}
 .wrap-suit  .suit-two .suit-box .base-suit a{}
 .wrap-suit  .suit-two .suit-box .base-suit a img{}
-.wrap-suit  .suit-two .suit-txt{float: left;position: relative;top: 175px;}
+.wrap-suit  .suit-two .suit-txt{float: left;position: relative;top: -415px;left: 800px;}
 .wrap-suit  .suit-two .suit-txt a{}
 .wrap-suit  .suit-two .suit-txt a img{}
 /*风衣*/
 .windbreaker{display: none;position: relative;}
 /*第一页*/
-.windbreaker .windbreaker-one{display:none;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
+.windbreaker .windbreaker-one{display:block;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
 .windbreaker-one .windbreaker-top{margin-bottom:9px;width: 998px;height: 345px;}
 .windbreaker-one .windbreaker-top .win-top-left{float: left;width: 527px;height: 336px;background-color: #eee5cf;}
 .windbreaker-one .windbreaker-top .win-top-left a{display:block;position: relative;top:-6px;left: -6px;font-size: 0;width: 527px;height: 336px;overflow: hidden;}
@@ -97,7 +97,7 @@ body{
 .windbreaker-bot .windbreaker-list li .base-windbreker a img{}
 .windbreaker .windbreaker-model{position: absolute;right:-14px;top:0;}
 /*第二页*/
-.windbreaker .windbreaker-two{display: block;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
+.windbreaker .windbreaker-two{display: none;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
 .windbreaker .windbreaker-two .windbreaker-pic-list{float: left;}
 .windbreaker-pic-list .base-windbreker{float: left;position: relative;top: 104px;}
 .windbreaker-pic-list .base-windbreker a{}
@@ -107,7 +107,7 @@ body{
 /*皮夹克*/
 .jacket{display: none;position: relative}
 /*第一页*/
-.jacket .jacket-one{display:none;position:relative;width: 1149px;height: 720px;margin-top:110px;margin-top: 110px;overflow:hidden;background: rgba(50,60,80,.2)}
+.jacket .jacket-one{display:block;position:relative;width: 1149px;height: 720px;margin-top:110px;margin-top: 110px;overflow:hidden;background: rgba(50,60,80,.2)}
 .jacket-one .jacket-top{width: 1149px;}
 .jacket-one .jacket-top .jacket-top-img{margin-left:23px;width: 345px;height: 344px;background-color: #fbdba8;border-radius: 50%;display: block;float: left; }
 .jacket-one .jacket-top .jacket-top-img img{position: relative;top: -6px;left:-6px;}
@@ -124,9 +124,9 @@ body{
 .jacket-bot .jacket-list .jacket-model-three .three-img{position: relative;top:-7px;left:-7px;}
 .jacket-model{position: absolute;top: -4px;right: 58px;}
 /*第二页*/
-.jacket .jacket-two{display: block;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
+.jacket .jacket-two{display: none;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
 .jacket .jacket-two .jacket-pic-list{float: left;}
-.jacket-pic-list .base-jacket{float: left;margin-left: 87px;}
+.jacket-pic-list .base-jacket{float: left;margin-left: 65px;}
 .jacket-pic-list .base-jacket a{}
 .jacket-pic-list .base-jacket a img{}
 .jacket .windbreaker-two .base-jacket-slogan{float: left;margin-top: 49px;}
@@ -147,7 +147,7 @@ body{
 .ornament-one .ornament-right a{position: absolute;top: -6px;left: -6px;}
 .ornament-one .ornament-right a img{}
 /*第二页*/
-.ornament .ornament-two{display:none;width: 1187px;height: 720px;margin-top:110px;overflow:hidden;background: rgba(50,60,80,.2)}
+.ornament .ornament-two{display:none;width: 1187px;height: 720px;margin-top:110px;background: rgba(50,60,80,.2)}
 .ornament-two .ornament-list{float:left;width: 615px;height: auto;}
 .ornament-two .ornament-list .ornament-list-ul{list-style: none;}
 .ornament-two .ornament-list li{float: left;width: 205px;height: 190px;}
