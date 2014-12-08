@@ -1,13 +1,18 @@
+html{height: 100%}
 body{
     width: 100%;
     height: 100%;
-    background-image: url("../images/body-bg-1.jpg");
+   background-image: url("../images/body-bg-1.jpg");
     background-attachment: fixed;
     background-color: #282828;
     background-position-x: center;
     background-position-y: 50%;
+    background-repeat: no-repeat;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/body-bg-1.jpg"', sizingMethod='scale');
+    left: 0;top:0;
+    box-sizing: border-box;
+    line-height: 1%;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/body-bg-1.png', sizingMethod=scale);
 }
 
 .container{width: 1401px;height: auto;margin:0 auto;/* background-color: rgba(20,50,60,.1)*/}
