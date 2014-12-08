@@ -105,10 +105,10 @@ var pageListCont = {
                 tagPage.find(".base-two").show();
                 tagPage.find(".base-pos-pic").show();
                 $(".base-pos-pic").css({
-                    "visibility":" visible"
+                    "visibility":"visible"
                 })
-
                 callback()
+
             })
             //价格动画
             var prictList = [
