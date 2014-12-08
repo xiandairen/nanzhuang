@@ -99,26 +99,26 @@ body{
 .windbreaker .windbreaker-model{position: absolute;right:-14px;top:0;}
 .windbreaker .windbreaker-model:hover{
     animation: move 2s;
-    -moz-animation: move 2s;	/* Firefox */
-    -webkit-animation: move 2s;	/* Safari 和 Chrome */
-    -o-animation: move 2s;	/* Opera */
+    -moz-animation: move 2s;
+    -webkit-animation: move 2s;
+    -o-animation: move 2s;
 }
 
-@-moz-keyframes move /* Firefox */
+@-moz-keyframes move
 {
     0%   {right: -14px;top: 0;}
     50%  {right: -34px;top: 0;}
     100% {right: -14px;top: 0;}
 }
 
-@-webkit-keyframes move /* Safari 和 Chrome */
+@-webkit-keyframes move
 {
     0%   {right: -14px;top: 0;}
     50%  {right: -34px;top: 0;}
     100% {right: -14px;top: 0;}
 }
 
-@-o-keyframes move /* Opera */
+@-o-keyframes move
 {
     0%   {right: -14px;top: 0;}
     50%  {right: -34px;top: 0;}
@@ -207,7 +207,7 @@ body{
 .dress .dress-one{display:block;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;}
 .dress-one .one-cont{position:relative;width: 1149px;height: 800px;padding-top:30px;overflow:hidden;/*background: rgba(50,60,80,.2)*/}
 .one-cont .dress-title{position: absolute;left: 234px;top: 74px;width: 770px;height: 179px;}
-.one-cont .dress-model-left{position: absolute;z-index:1000;width: 248px;height: 711px;}
+.one-cont .dress-model-left{position: absolute;z-index:1000;width: 248px;height: 711px;left: 0;top: 0; }
 .one-cont .dress-trousers{position: absolute;top: 261px;left: 170px;width: 191px;height: 323px;}
 .one-cont .dress-waistcoat{position: absolute;top: 272px;left: 289px;width: 226px;height: 280px;}
 .one-cont .dress-Shoes{position: absolute;top: 497px;left: 268px;width: 133px;height: 144px;}
