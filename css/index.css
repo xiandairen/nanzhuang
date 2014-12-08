@@ -69,6 +69,7 @@ body{
 .suit-one .suit-des{float: left;width: 560px;height: 830px;background: rgba(10,50,60,.2);background: url("../images/suit-1_03.png") 29px  39px no-repeat;}
 .suit-one .suit-des .suit-txt{margin-left:35px;width: 291px;font-size: 14px;line-height: 22px;color: #7d7d7d;margin-top: 250px;}
 .suit-one .suit-des .sui-img{position: relative; top: -263px;left: 323px;}
+
 .suit-one .suit-des .sui-img a{}
 /*第二页*/
 .wrap-suit  .suit-two{display:none;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;/*background: rgba(50,60,80,.2)*/}
@@ -96,6 +97,33 @@ body{
 .windbreaker-bot .windbreaker-list li .base-windbreker a{}
 .windbreaker-bot .windbreaker-list li .base-windbreker a img{}
 .windbreaker .windbreaker-model{position: absolute;right:-14px;top:0;}
+.windbreaker .windbreaker-model:hover{
+    animation: move 2s;
+    -moz-animation: move 2s;	/* Firefox */
+    -webkit-animation: move 2s;	/* Safari 和 Chrome */
+    -o-animation: move 2s;	/* Opera */
+}
+
+@-moz-keyframes move /* Firefox */
+{
+    0%   {right: -14px;top: 0;}
+    50%  {right: -34px;top: 0;}
+    100% {right: -14px;top: 0;}
+}
+
+@-webkit-keyframes move /* Safari 和 Chrome */
+{
+    0%   {right: -14px;top: 0;}
+    50%  {right: -34px;top: 0;}
+    100% {right: -14px;top: 0;}
+}
+
+@-o-keyframes move /* Opera */
+{
+    0%   {right: -14px;top: 0;}
+    50%  {right: -34px;top: 0;}
+    100% {right: -14px;top: 0;}
+}
 /*第二页*/
 .windbreaker .windbreaker-two{display: none;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;/*background: rgba(50,60,80,.2)*/}
 .windbreaker .windbreaker-two .windbreaker-pic-list{float: left;}
@@ -130,6 +158,8 @@ body{
 .jacket-pic-list .base-jacket a{}
 .jacket-pic-list .base-jacket a img{}
 .jacket .windbreaker-two .base-jacket-slogan{float: left;margin-top: 49px;}
+
+
 /*配饰*/
 .ornament{display: none;position: relative}
 /*第一页*/
@@ -156,6 +186,7 @@ body{
 .ornament-two .ornament-list .base-ornament  a img{}
 .ornament-two .ornament-list .base-ornament  i{position:relative;display: block;width: 90px;height: 90px;overflow:hidden;color: #ffffff;font-size: 17px;text-align: center;}
 .ornament-two .ornament-list .base-ornament  i span{margin-top: 26px;margin-left: 10px;display: block;width: 77px;height: 77px;overflow: hidden;color: #ffffff;font-size: 15px;text-align: center;}
+.ornament-two .ornament-list .base-ornament  i span:hover{text-shadow: #073847 0 2px 0;}
 .base-ornament .bubble-1{background: url("../images/ornament/$752.png") no-repeat;top: -110px;}
 .base-ornament .bubble-2{background: url("../images/ornament/$268.png") no-repeat;top: -225px;left: 118px;}
 .base-ornament .bubble-3{background: url("../images/ornament/$9315.png") no-repeat;top: -82px;left: 110px;}
