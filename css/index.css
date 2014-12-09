@@ -32,7 +32,7 @@ body{
 .wrap-left .bot-model{position: relative;z-index:501;top: -75px;left: -29px;}
 
 /*首页*/
-.wrap-right .main-index{display:block;height: 720px;margin-top:110px;background: url("../images/index-1.png") center 0 no-repeat;}
+.wrap-right .main-index{display:block;position: relative;top: -70px;height: 720px;margin-top:110px;background: url("../images/index-1.png") center 0 no-repeat;}
 .main-index .malemode-1{position: relative;top:28px;left:-607px;z-index: 499;}
 .main-index .malemode-1 img{}
 .main-index .cont-txt{float: left; width: 518px; font-family: "微软雅黑"; position: relative;top: 500px;left: 387px;}
@@ -190,7 +190,7 @@ body{
 .ornament-two .ornament-list .base-ornament a{}
 .ornament-two .ornament-list .base-ornament  a img{}
 .ornament-two .ornament-list .base-ornament  i{position:relative;display: block;width: 90px;height: 90px;overflow:hidden;color: #ffffff;font-size: 17px;text-align: center;}
-.ornament-two .ornament-list .base-ornament  i span{margin-top: 26px;margin-left: 10px;display: block;width: 77px;height: 77px;overflow: hidden;color: #ffffff;font-size: 15px;text-align: center;}
+.ornament-two .ornament-list .base-ornament  i span{margin-top: 26px;margin-left: 10px;display: block;width: 77px;height: 77px;overflow: hidden;color: #ffffff;font-size: 15px;text-align: center;line-height: 18px;}
 .ornament-two .ornament-list .base-ornament  i span:hover{text-shadow: #073847 0 2px 0;}
 .base-ornament .bubble-1{background: url("../images/ornament/$752.png") no-repeat;top: -110px;}
 .base-ornament .bubble-2{background: url("../images/ornament/$268.png") no-repeat;top: -225px;left: 118px;}
@@ -209,7 +209,7 @@ body{
 /*搭配*/
 .dress{display: none;position: relative}
 /*第一页*/
-.dress .dress-one{display:block;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;}
+.dress .dress-one{display:block;position: relative;top: -70px;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;}
 .dress-one .one-cont{position:relative;width: 1149px;height: 800px;padding-top:30px;overflow:hidden;/*background: rgba(50,60,80,.2)*/}
 .one-cont .dress-title{position: absolute;left: 234px;top: 74px;width: 770px;height: 179px;}
 .one-cont .dress-model-left{position: absolute;z-index:1000;width: 248px;height: 711px;left: 0;top: 0; }

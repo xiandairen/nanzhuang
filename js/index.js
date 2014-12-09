@@ -129,4 +129,18 @@ var pageListCont = {
 
         })
     })
+
+
+    //首页点击空白页面跳转
+    $("#MainIndex").click(function(){
+        $(".nav-list li").eq(1).trigger("click")
+    })
+
+
+
+
+
+
+
+
 })
