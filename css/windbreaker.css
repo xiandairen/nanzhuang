@@ -1,0 +1,51 @@
+/*风衣*/
+.windbreaker{display: block;position: relative;}
+/*第一页*/
+.windbreaker .windbreaker-one{display:block;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;/*background: rgba(50,60,80,.2)*/}
+.windbreaker-one .windbreaker-top{margin-bottom:9px;width: 998px;height: 345px;}
+.windbreaker-one .windbreaker-top .win-top-left{float: left;width: 527px;height: 336px;background-color: #eee5cf;}
+.windbreaker-one .windbreaker-top .win-top-left a{display:block;position: relative;top:-6px;left: -6px;font-size: 0;width: 527px;height: 336px;overflow: hidden;}
+.windbreaker-one .windbreaker-top .win-top-left a img{}
+.windbreaker-one .windbreaker-top .win-top-right{float: right;width: 458px;background: url("../images/windbreaker/windbreaker-1.png") no-repeat;}
+.windbreaker-one .windbreaker-top .win-top-right .win-top-des{margin-top:219px;width: 458px;font-size: 14px;color: #5a5858;line-height: 22px; }
+.windbreaker-one .windbreaker-bot{width: 985px;}
+.windbreaker-bot .windbreaker-list{list-style: none}
+.windbreaker-bot .windbreaker-list li{float: left;margin-right:10px;width: 282px;height: 336px;background-color:#e1e2cf; }
+.windbreaker-bot .windbreaker-list li .base-windbreker{position:relative;top:-6px;left:-6px;width: 282px;height: 336px;}
+.windbreaker-bot .windbreaker-list li .base-windbreker a{}
+.windbreaker-bot .windbreaker-list li .base-windbreker a img{}
+.windbreaker .windbreaker-model{position: absolute;right:-14px;top:0;}
+.windbreaker .windbreaker-model:hover{
+    animation: move 2s;
+    -moz-animation: move 2s;
+    -webkit-animation: move 2s;
+    -o-animation: move 2s;
+}
+
+@-moz-keyframes move
+{
+    0%   {right: -14px;top: 0;}
+    50%  {right: -34px;top: 0;}
+    100% {right: -14px;top: 0;}
+}
+
+@-webkit-keyframes move
+{
+    0%   {right: -14px;top: 0;}
+    50%  {right: -34px;top: 0;}
+    100% {right: -14px;top: 0;}
+}
+
+@-o-keyframes move
+{
+    0%   {right: -14px;top: 0;}
+    50%  {right: -34px;top: 0;}
+    100% {right: -14px;top: 0;}
+}
+/*第二页*/
+.windbreaker .windbreaker-two{display: none;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;/*background: rgba(50,60,80,.2)*/}
+.windbreaker .windbreaker-two .windbreaker-pic-list{float: left;}
+.windbreaker-pic-list .base-windbreker{float: left;position: relative;top: 104px;}
+.windbreaker-pic-list .base-windbreker a{}
+.windbreaker-pic-list .base-windbreker a img{}
+.windbreaker .windbreaker-two .windbreker-slogan{float: left;margin-top: 49px;}

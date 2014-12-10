@@ -1,0 +1,47 @@
+html{height: 100%}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/body-bg-1.jpg");
+    background-attachment: fixed;
+    background-color: #282828;
+    background-position-x: center;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;top:0;
+    box-sizing: border-box;
+    line-height: 1%;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/body-bg-1.png', sizingMethod=scale);
+}
+
+.container{width: 1401px;height: auto;margin:0 auto;/* background-color: rgba(20,50,60,.1)*/}
+.container .wrap{position:absolute;bottom:0;/*padding-bottom:100px;*/width: 1401px;height: auto;/*background: rgba(20,50,60,.2)*/}
+.wrap .wrap-left{float: left;margin-top: 138px;margin-left: 52px;width: 160px;height: 490px;}
+.wrap .wrap-right{float: left;width: 1189px;height:auto;/*background:rgba(50,600,20,.5)*/overflow: hidden;}
+
+
+/*导航*/
+.wrap-left .nav-title{position:relative;top:2px;width: 133px;height: 68px;background: url("../images/title-ico.jpg") 0 0 no-repeat;}
+.wrap-left .nav-title strong{text-indent: -9999px;visibility: hidden;}
+.wrap-left .nav-box{position:relative;z-index:500;width:133px;height: 353px;}
+.wrap-left .nav-box .nav-list{padding-bottom:72px;list-style: none;background-color: #ad7d2b; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
+.nav-box  .nav-list li{margin:0 auto;width:117px;height: 39px;border-bottom: 1px dashed #8b5821; }
+.nav-box  .nav-list li a{margin-top:2px;display:block;text-align:center;line-height:35px;width:117px;height:35px;font-size: 20px;color: #ffffff;text-decoration: none;}
+.nav-box  .nav-list li a:hover{background-color:#81511c;border-radius:15px;text-decoration: none}
+.wrap-left .bot-model{position: relative;z-index:501;top: -75px;left: -29px;}
+
+
+/*公共分页*/
+.trun-page{float: right;position: absolute;bottom: 50px;right: 160px;}
+.trun-page .rturn-page{position: absolute;z-index:500;width: 46px;height: 46px;background: url("../images/return-page-ico.png") no-repeat;cursor: pointer;}
+.trun-page .next-page{position: absolute;z-index:501;top: -37px;left: 30px;width: 76px;height: 75px;background: url("../images/next-page-ico.png") no-repeat;cursor: pointer}
+
+/*移动的圆圈（价格）*/
+.base-pos-pic {position:absolute;visibility: hidden;}
+.pic-1{top: 559px;left: -73px;}
+.pic-2{top: 558px;left: 193px;}
+.pic-3{top: 558px;left: 452px;}
+
+/*导航点击后公共的样式*/
+.nav-hover{background-color: #81511c;border-radius: 15px;text-decoration: none;}

@@ -1,0 +1,23 @@
+/*薄西服*/
+.wrap-suit{display: block;position: relative;}
+/*第一页*/
+.wrap-suit .suit-one{display:block;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;/*background: rgba(50,60,80,.2)*/}
+.suit-one .suit-box{float: left;width: 589px;overflow: hidden;height: auto;/*background: rgba(150,10,180,.2)*/}
+.suit-one .suit-box .suit-list{width: 600px;list-style: none;}
+.suit-one .suit-box .suit-list li{float: left;margin-right:14px;margin-bottom:13px;width:282px;height: 336px; background-color: #f3e8d1;}
+.suit-one .suit-box .suit-list li .base-suit{position:relative;top:-6px;left:-5px;width:282px;height: 336px;}
+.suit-one .suit-box .suit-list li .base-suit a{font-size: 0;}
+.suit-one .suit-des{float: left;width: 560px;height: 830px;background: rgba(10,50,60,.2);background: url("../images/suit-1_03.png") 29px  39px no-repeat;}
+.suit-one .suit-des .suit-txt{margin-left:35px;width: 291px;font-size: 14px;line-height: 22px;color: #7d7d7d;margin-top: 250px;}
+.suit-one .suit-des .sui-img{position: relative; top: -263px;left: 323px;}
+
+.suit-one .suit-des .sui-img a{}
+/*第二页*/
+.wrap-suit  .suit-two{display:none;position: relative;top: -109px;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;/*background: rgba(50,60,80,.2)*/}
+.wrap-suit  .suit-two .suit-box{float: left;margin-right: 18px;}
+.wrap-suit  .suit-two .suit-box .base-suit{float: left;position: relative; top: 95px;margin-right: 60px}
+.wrap-suit  .suit-two .suit-box .base-suit a{}
+.wrap-suit  .suit-two .suit-box .base-suit a img{}
+.wrap-suit  .suit-two .suit-txt{float: left;position: relative;top: -415px;left: 800px;}
+.wrap-suit  .suit-two .suit-txt a{}
+.wrap-suit  .suit-two .suit-txt a img{}

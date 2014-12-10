@@ -1,0 +1,26 @@
+/*皮夹克*/
+.jacket{display: block;position: relative}
+/*第一页*/
+.jacket .jacket-one{display:block;position:relative;width: 1149px;height: 720px;margin-top:110px;margin-top: 110px;overflow:hidden;/*background: rgba(50,60,80,.2)*/}
+.jacket-one .jacket-top{width: 1149px;}
+.jacket-one .jacket-top .jacket-top-img{margin-left:23px;width: 345px;height: 344px;background-color: #fbdba8;border-radius: 50%;display: block;float: left; }
+.jacket-one .jacket-top .jacket-top-img img{position: relative;top: -6px;left:-6px;}
+.jacket-one .jacket-top .jacket-top-txt{float: left;width: 463px;height: 365px;background: url("../images/jacket/jacket-slogan.png") no-repeat;}
+.jacket-one .jacket-top .jacket-top-txt .top-txt-des{margin-top:227px;width: 380px;margin-left: 33px;color: #7d7d7d;font-size: 12px;line-height: 22px;}
+.jacket-one .jacket-bot{width: 1149px;}
+.jacket-one .jacket-bot .jacket-list{list-style: none;}
+.jacket-one .jacket-bot .jacket-list li{float: left;}
+.jacket-bot .jacket-list .jacket-model-one{margin-left: 23px;margin-right: 14px;width: 314px;height: 314px;background-color: #fbdba8;border-radius: 50%;}
+.jacket-bot .jacket-list .jacket-model-one .one-img{position: relative;top:-7px;left:-7px;}
+.jacket-bot .jacket-list .jacket-model-two{margin-right:14px;width: 276px;height: 276px;background-color: #fbdba8;border-radius: 50%;}
+.jacket-bot .jacket-list .jacket-model-two .two-img{position: relative;top:-7px;left:-7px;}
+.jacket-bot .jacket-list .jacket-model-three{width: 236px;height: 236px;background-color: #fbdba8;border-radius: 50%;}
+.jacket-bot .jacket-list .jacket-model-three .three-img{position: relative;top:-7px;left:-7px;}
+.jacket-model{position: absolute;top: -4px;right: 58px;}
+/*第二页*/
+.jacket .jacket-two{display: none;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;/*background: rgba(50,60,80,.2)*/}
+.jacket .jacket-two .jacket-pic-list{float: left;}
+.jacket-pic-list .base-jacket{float: left;margin-left: 65px;}
+.jacket-pic-list .base-jacket a{}
+.jacket-pic-list .base-jacket a img{}
+.jacket .windbreaker-two .base-jacket-slogan{float: left;margin-top: 49px;}

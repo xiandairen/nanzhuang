@@ -1,0 +1,20 @@
+/*长袖衫*/
+.wrap-shirt{position: relative;display: block;}
+/*第一页*/
+.wrap-shirt .long-shirt{display:block;width: 1149px;height: 720px;margin-top:110px;overflow:hidden;/*background: rgba(50,60,80,.2)*/}
+.long-shirt .shirt-list-box{list-style: none;width: 1160px;}
+.long-shirt .shirt-list-box li{float: left;margin-right:15px;width: 273px;height: 469px;background-color: #eee5cf; }
+.long-shirt .shirt-list-box .base-img-box{width: 273px;height: 469px;overflow: hidden;position: relative;top:-6px;left:-6px;}
+.long-shirt .shirt-list-box .base-img-box a{}
+.long-shirt .shirt-list-box .base-img-box a img{}
+.long-shirt .bot{margin-top:33px;width: 1149px;height: 125px;}
+.long-shirt .bot .solgan-shirt{float: left;}
+.bot .bot-txt{float:left;width: 423px;height: 113px;border:1px dashed #aaafaf;}
+.bot .bot-txt p{float:left;font-size: 12px;color: #535353;line-height: 22px;}
+
+/*第二页*/
+.long-shirt-two{display:none;width: 1149px;height: 720px;margin-top: 110px;}
+.long-shirt-two .changable-shirt{float: left;margin-top: 182px;margin-right: 47px;}
+.long-shirt-two .shirt-recommend{float: left;position: relative;}
+.long-shirt-two .shirt-recommend .base-shirt{float: left;margin-right: 30px;}
+.long-shirt-two .shirt-recommend .base-shirt a{}

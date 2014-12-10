@@ -5,15 +5,27 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>男装专题</title>
+    <title>男装专题|首页</title>
     <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
     <link rel="stylesheet" href="css/index.css"/>
     <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/index.js"></script>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+    <script>
+        $(document).ready(function(){
+            var $MainIndex = $("#MainIndex");
+            //var src = window.history.go(-1)
+            var src = "http://localhost:63342/nanzhuang/shirt.html"
+            $MainIndex.click(function(){
+                window.location.href=src;
+            })
+        })
+
+
+    </script>
 </head>
 <body>
 <div class="container">
@@ -24,13 +36,13 @@
             </h2>
             <nav class="nav-box">
                 <ul class="nav-list">
-                    <li><a href="javascript:void(0)" class="nav-hover">首页</a></li>
-                    <li><a href="javascript:void(0)">长袖衫</a></li>
-                    <li><a href="javascript:void(0)">薄西服</a></li>
-                    <li><a href="javascript:void(0)">风衣</a></li>
-                    <li><a href="javascript:void(0)">皮夹克</a></li>
-                    <li><a href="javascript:void(0)">配饰</a></li>
-                    <li><a href="javascript:void(0)">搭配</a></li>
+                    <li><a href="index.html" class="nav-hover">首页</a></li>
+                    <li><a href="shirt.html">长袖衫</a></li>
+                    <li><a href="suit.html">薄西服</a></li>
+                    <li><a href="windbreaker.html">风衣</a></li>
+                    <li><a href="jacket.html">皮夹克</a></li>
+                    <li><a href="ornament.html">配饰</a></li>
+                    <li><a href="dress.html">搭配</a></li>
                 </ul>
             </nav>
             <img src="images/nav-people.png" alt="" class="bot-model"/>
@@ -45,386 +57,6 @@
                 <a href="" class="malemode-2"><img src="images/Malemodel-2.png" alt=""/></a>
             </div>
             <!--首页end-->
-            <!--长袖衫start-->
-            <div class="base-wrap wrap-shirt" id="WrapShirt">
-                <!--第一页-->
-                <div class="base-one long-shirt-one long-shirt clearfix">
-                    <ul class="shirt-list-box clearfix">
-                        <li>
-                            <div class="base-img-box"><a href=""><img src="images/long-shirt-2.jpg" alt=""/></a></div>
-                        </li>
-                        <li>
-                            <div class="base-img-box"><a href=""><img src="images/long-shirt-1.jpg" alt=""/></a></div>
-                        </li>
-                        <li>
-                            <div class="base-img-box"><a href=""><img src="images/long-shirt-3.jpg" alt=""/></a></div>
-                        </li>
-                        <li>
-                            <div class="base-img-box"><a href=""><img src="images/long-shirt-4.jpg" alt=""/></a></div>
-                        </li>
-                    </ul>
-                    <div class="bot clearfix">
-                        <img src="images/solgan-shirt-1.png" alt="" class="solgan-shirt"/>
-                        <div class="bot-txt">
-                         <!--   <i class="bot-txt-ico"></i>-->
-                            <p>夏季如果说是t恤的天下，那么秋季就是长袖衫的王朝。在这个早晚上下班冻成冰棍，中午吃饭热成肉串的时期，长袖衫绝对是你的日常穿搭首选。早上你可放下袖子来抵御严寒，中午腕上袖口解暑之余你还可以尽显潇洒，还有男士小臂的肌肉线条跟能吸引女生的注意哦！所以长袖衫不仅是个普通基本款，同时也是个百变勾魂装备！</p>
-                        </div>
-                    </div>
-                </div>
-                <!--第二页-->
-                <div class="base-two long-shirt-two clearfix">
-                    <img src="images/Changeable-shirt.png" alt="" class="changable-shirt"/>
-                    <div class="shirt-recommend">
-                        <div class="base-shirt">
-                            <a href=""><img src="images/long-shirt-two-1.png" alt=""/></a>
-                        </div>
-                        <div class="base-shirt">
-                            <a href=""><img src="images/long-shirt-two-2.png" alt=""/></a>
-                        </div>
-                        <div class="base-shirt">
-                            <a href=""><img src="images/long-shirt-two-3.png" alt=""/></a>
-                        </div>
-                    </div>
-                </div>
-                <!--分页-->
-                <div class="trun-page">
-                    <i class="rturn-page"></i>
-                    <i class="next-page"></i>
-                </div>
-                <!--公共圆圈价格-->
-                <img src="images/shirt/shirt-1.png" alt="" class="base-pos-pic pic-1"/>
-                <img src="images/shirt/shirt-2.png" alt="" class="base-pos-pic pic-2"/>
-                <img src="images/shirt/shirt-3.png" alt="" class="base-pos-pic pic-3"/>
-            </div>
-            <!--长袖衫end-->
-            <!--薄西服start-->
-            <div class="base-wrap wrap-suit clearfix" id="wrapSuit">
-                <!--第一页start-->
-                <div class="base-one suit-one clearfix">
-                    <div class="suit-box">
-                        <ul class="suit-list">
-                            <li>
-                                <div class="base-suit"><a href=""><img src="images/suit-1.jpg" alt=""/></a></div>
-                            </li>
-                            <li>
-                                <div class="base-suit"><a href=""><img src="images/suit-2.jpg" alt=""/></a></div>
-                            </li>
-                            <li>
-                                <div class="base-suit"><a href=""><img src="images/suit-3.jpg" alt=""/></a></div>
-                            </li>
-                            <li>
-                                <div class="base-suit"><a href=""><img src="images/suit-4.jpg" alt=""/></a></div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="suit-des">
-                        <p class="suit-txt">
-                            九月这个微风徐徐的季节，唯有薄西服才配的上你这俊俏的外表，现在不穿还要等到什么时候呢？尤其是解开衣扣随风飘荡的样子，更是能迷倒一片姑娘。同时在你冷的时候穿上它，顿时让你成为绅士的“高富帅”，没错！在这个刷脸的年代，衣柜里怎么能没有一件及拿的出手又风度翩翩的“薄西服”呢？
-                        </p>
-                        <a href="" class="sui-img"><img src="images/suit-img.png" alt=""/></a>
-                    </div>
-                </div>
-                <!--第二页start-->
-                <div class="base-two suit-two clearfix">
-                    <div class="suit-box">
-                        <div class="base-suit"><a href=""><img src="images/suit-model-1.png" alt=""/></a></div>
-                        <div class="base-suit"><a href=""><img src="images/suit-model-2.png" alt=""/></a></div>
-                        <div class="base-suit"><a href=""><img src="images/suit-model-3.png" alt=""/></a></div>
-                    </div>
-                    <div class="suit-txt">
-                        <a href=""><img src="images/suit-1_3.png" alt=""/></a>
-                    </div>
-                </div>
-                <!--第二页end-->
-                <!--分页-->
-                <div class="trun-page">
-                    <i class="rturn-page"></i>
-                    <i class="next-page"></i>
-                </div>
-                <!--公共圆圈价格-->
-                <img src="images/shirt/shirt-1.png" alt="" class="base-pos-pic pic-1"/>
-                <img src="images/shirt/shirt-2.png" alt="" class="base-pos-pic pic-2"/>
-                <img src="images/shirt/shirt-3.png" alt="" class="base-pos-pic pic-3"/>
-            </div>
-            <!--薄西服end-->
-            <!--风衣start-->
-            <div class="base-wrap windbreaker clearfix" id="windBreaker">
-                <!--第一页-->
-                <div class="base-one windbreaker-one">
-                    <div class="windbreaker-top clearfix">
-                        <div class="win-top-left">
-                            <a href=""><img src="images/windbreaker/windbreaker-1_03.jpg" alt=""/></a>
-                        </div>
-                        <div class="win-top-right">
-                            <p class="win-top-des">
-                                在秋季这个瞬息万变的时期，你也不知道何时一阵寒流来袭冻得你浑身颤抖。所以一件颇具英伦特色的风衣就成为了你的救命稻草，但是千万不要以为风衣把你包的跟个粽子似的不显身材，其实它是这里所有款式中最修身的！敞开穿如流水般的线条可以让你显得高挑，系上腰带穿更显笔直英俊。
-                            </p>
-                        </div>
-                    </div>
-                    <div class="windbreaker-bot clearfix">
-                        <ul class="windbreaker-list">
-                            <li>
-                                <div class="base-windbreker"><a href=""><img src="images/windbreaker/windbreaker-model-1.jpg" alt=""/></a></div>
-                            </li>
-                            <li>
-                                <div class="base-windbreker"><a href=""><img src="images/windbreaker/windbreaker-model-2.jpg" alt=""/></a></div>
-                            </li>
-                            <li>
-                                <div class="base-windbreker"><a href=""><img src="images/windbreaker/windbreaker-model-3.jpg" alt=""/></a></div>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="" class="windbreaker-model"><img src="images/windbreaker/windbreaker-model-1.png" alt=""/></a>
-                </div>
-                <!--第二页-->
-                <div class="base-two windbreaker-two clearfix">
-                    <div class="windbreaker-pic-list">
-                        <div class="base-windbreker">
-                            <a href=""><img src="images/windbreaker/windbreak-model-1.png" alt=""/></a>
-                        </div>
-                        <div class="base-windbreker">
-                            <a href=""><img src="images/windbreaker/windbreak-model-2.png" alt=""/></a>
-                        </div>
-                        <div class="base-windbreker">
-                            <a href=""><img src="images/windbreaker/windbreak-model-3.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <img src="images/Changeable-shirt.png" alt="" class="windbreker-slogan"/>
-                </div>
-                <!--分页-->
-                <div class="trun-page">
-                    <i class="rturn-page"></i>
-                    <i class="next-page"></i>
-                </div>
-                <!--公共圆圈价格-->
-                <img src="images/shirt/shirt-1.png" alt="" class="base-pos-pic pic-1"/>
-                <img src="images/shirt/shirt-2.png" alt="" class="base-pos-pic pic-2"/>
-                <img src="images/shirt/shirt-3.png" alt="" class="base-pos-pic pic-3"/>
-            </div>
-            <!--风衣end-->
-            <!--皮夹克start-->
-            <div class="base-wrap jacket clearfix" id="Jacket">
-               <!--第一页-->
-                <div class="base-one jacket-one">
-                    <div class="jacket-top clearfix">
-                        <a href="" class="jacket-top-img"><img src="images/jacket/jacket-top-left.png" alt=""/></a>
-                        <div class="jacket-top-txt">
-                            <p class="top-txt-des">
-                                秋季的前期天气还是比较凉爽比较舒适的，但是临近10月会越来越冷，毫无疑问在10几度的室外一件简约单衣已经不能抵御寒冷了。这时一件帅气又有型的皮夹克就成为了你的出街必备，但是皮夹克不只是能起到保暖和帅气的作用，同时它也是机车文化的代表单品，它集合了狂野不羁、桀骜不驯之类的帅气含义。
-                            </p>
-                        </div>
-                    </div>
-                    <div class="jacket-bot">
-                        <ul class="jacket-list">
-                            <li class="jacket-model-one">
-                                <div class="one-img"><a href=""><img src="images/jacket/jacket-model-1.png" alt=""/></a></div>
-                            </li>
-                            <li class="jacket-model-two">
-                                <div class="two-img"><a href=""><img src="images/jacket/jacket-model-2.png" alt=""/></a></div>
-                            </li>
-                            <li class="jacket-model-three">
-                                <div class="three-img"><a href=""><img src="images/jacket/jacket-model-3.png" alt=""/></a></div>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="" class="jacket-model"><img src="images/jacket/jacket-model-4.png" alt=""/></a>
-                </div>
-                <!--第二页-->
-                <div class="base-two jacket-two clearfix">
-                    <div class="jacket-pic-list">
-                        <div class="base-jacket">
-                            <a href=""><img src="images/jacket/jacket-model-1-1.png" alt=""/></a>
-                        </div>
-                        <div class="base-jacket">
-                            <a href=""><img src="images/jacket/jacket-model-1-2.png" alt=""/></a>
-                        </div>
-                        <div class="base-jacket">
-                            <a href=""><img src="images/jacket/jacket-model-1-3.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <img src="images/jacket/base-jacket-slogan.png" alt="" class="base-jacket-slogan" style="margin-top: 37px;margin-left:20px;"/>
-                </div>
-                <!--分页-->
-                <div class="trun-page">
-                    <i class="rturn-page"></i>
-                    <i class="next-page"></i>
-                </div>
-                <!--公共圆圈价格-->
-                <img src="images/shirt/shirt-1.png" alt="" class="base-pos-pic pic-1"/>
-                <img src="images/shirt/shirt-2.png" alt="" class="base-pos-pic pic-2"/>
-                <img src="images/shirt/shirt-3.png" alt="" class="base-pos-pic pic-3"/>
-            </div>
-            <!--皮夹克end-->
-            <!--配饰start-->
-            <div class="base-wrap ornament clearfix" id="Ornament">
-                <!--第一页-->
-                <div class="base-one ornament-one clearfix">
-                    <div class="ornament-left">
-                        <a href=""><img src="images/ornament/ornament-left.png" alt=""/></a>
-                    </div>
-                    <div class="ornament-middle">
-                        <div class="middle-top">
-                            <p class="top-txt">作为一位秋季绅士，小细节也是不可或缺的，所谓“细节决定成败”，出门穿衣也是一个道理，如果你的内容做不到位外表再美也不禁看，但是多了就显得浮夸了，所以身上有个一两件小单品足以。 </p>
-                        </div>
-                        <div class="base-middle-bot">
-                            <a href=""><img src="images/ornament/middle-model-1.jpg" alt=""/></a>
-                        </div>
-                        <div class="base-middle-bot">
-                            <a href=""><img src="images/ornament/middle-model-2.jpg" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="ornament-right">
-                        <a href=""><img src="images/ornament/ornament-right.png" alt=""/></a>
-                    </div>
-                </div>
-                <!--第二页-->
-                <div class="base-two ornament-two clearfix">
-                    <div class="ornament-list cleafix">
-                        <ul class="ornament-list-ul">
-                            <li>
-                                <div class="base-ornament"><a href=""><img src="images/ornament/ornament-1.png" alt=""/></a><i class="bubble-1">
-                                    <span>Stefano Ricci $752</span>
-                                </i></div>
-                            </li>
-                            <li>
-                                <div class="base-ornament"><a href=""><img src="images/ornament/ornament-2.png" alt=""/></a><i class="bubble-2">
-                                    <span>Salvatore Ferragamo $268</span> </i></div>
-                            </li>
-                            <li>
-                                <div class="base-ornament"><a href=""><img src="images/ornament/ornament-3.png" alt=""/></a><i class="bubble-3">
-                                    <span>IWC $9,315</span>
-                                </i></div>
-                            </li>
-                            <li>
-                                <div class="base-ornament"><a href=""><img src="images/ornament/ornament-4.png" alt=""/></a><i class="bubble-4">
-                                    <span>Alexander McQueen $532</span></i></div>
-                            </li>
-                            <li>
-                                <div class="base-ornament"><a href=""><img src="images/ornament/ornament-5.png" alt=""/></a><i class="bubble-5">
-                                    <span>Charvet $263</span></i></div>
-                            </li>
-                            <li>
-                                <div class="base-ornament"><a href=""><img src="images/ornament/ornament-6.png" alt=""/></a><i class="bubble-6">
-                                    <span>Cartier $2740</span></i></div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="ornament-right-tip">
-                        <div class="solgan-tip"></div>
-                        <div class="recommend">
-                            <h2>
-                                <strong>单品推荐理由</strong>
-                            </h2>
-                            <div class="recommend-txt">
-                                <p class="txt-des">围巾让你变得更文艺范儿，拿本书你就学者。领带不仅可以把你的身材拉的更加匀称，带上手表看起来更像“高富帅”，切忌这三个不要一起使用，否则看起来不伦不类，特像“土肥圆”。</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--分页-->
-                <div class="trun-page">
-                    <i class="rturn-page"></i>
-                    <i class="next-page"></i>
-                </div>
-            </div>
-            <!--配饰end-->
-            <!--搭配start-->
-            <div class="base-wrap dress clearfix" id="Dress">
-                <!--第一页-->
-                <div class="base-one dress-one clearfix">
-                    <div class="one-cont clearfix">
-                        <a href="" class="dress-title"><img src="images/dress/dress-title.png" alt=""/></a>
-                        <a href="" class="dress-model-left"><img src="images/dress/dress-model-left.png" alt=""/></a>
-                        <a href="" class="dress-trousers"><img src="images/dress/dress-trousers.png" alt=""/></a>
-                        <a href="" class="dress-waistcoat"><img src="images/dress/dress-waistcoat.png" alt=""/></a>
-                        <a href="" class="dress-Shoes"><img src="images/dress/dress-Shoes.png" alt=""/></a>
-                        <a href="" class="dress-eye"><img src="images/dress/dress-eye.png" alt=""/></a>
-                        <a href="" class="dress-pack"><img src="images/dress/dress-pack.png" alt=""/></a>
-                        <div class="dress-des">
-                            <p>作为一个初学者，如果你光看单品还是觉得一头雾水的话，切记不要把你衣柜里所有值钱家当都穿上身，一套颜色柔和，版型简约的行头绝对是你对战秋季的最佳之选！这样即看起来温文尔雅又简洁大方。</p>
-                        </div>
-                        <div class="dress-right">
-                            <a href=""><img src="images/dress/dress-model-right.png" alt=""/></a>
-                        </div>
-                    </div>
-                </div>
-                <!--第二页-->
-                <div class="base-two dress-two clearfix">
-                        <div class="two-cont clearfix">
-                            <div class="dress-model-left-2"><a href=""><img src="images/dress/dress-model-left-2.png" alt=""/></a></div>
-                            <div class="dress-title-2"><a href=""><img src="images/dress/dress-title-2.png" alt=""/></a></div>
-                            <div class="dress-trousers-2">
-                                <a href=""><img src="images/dress/dress-trousers-2.png" alt=""/></a>
-                                <div class="base-pic dress-trousers-2-pic">
-                                    <span>H&M</span>
-                                    <i>RMB 180</i>
-                                </div>
-                            </div>
-                            <div class="dress-waistcoat-2">
-                                <a href="" ><img src="images/dress/dress-waistcoat-2.png" alt=""/></a>
-                                <div class="base-pic dress-waistcoat-2-pic">
-                                    <span>H.E BY MANGO</span>
-                                    <i>RMB 960</i>
-                                </div>
-                            </div>
-                            <div class="dress-waistcoat-3">
-                                <a href="" ><img src="images/dress/dress-waistcoat-3.png" alt=""/></a>
-                                <div class="base-pic dress-waistcoat-3-pic">
-                                    <span>ZARA</span>
-                                    <i>RMB 360</i>
-                                </div>
-                            </div>
-                            <div class="dress-waistcoat-4">
-                                <a href=""><img src="images/dress/dress-waistcoat-4.png" alt=""/></a>
-                                <div class="base-pic dress-waistcoat-4-pic">
-                                    <span>H&M</span>
-                                    <i>RMB 210</i>
-                                </div>
-                            </div>
-                            <div class="Handkerchief">
-                                <a href=""><img src="images/dress/Handkerchief.png" alt=""/></a>
-                                <div class="base-pic Handkerchief-pic">
-                                    <span>H.E BY MANGO</span>
-                                    <i>RMB 60</i>
-                                </div>
-                            </div>
-                            <div class="Bracelet">
-                                <a href=""><img src="images/dress/Bracelet.png" alt=""/></a>
-                                <div class="base-pic Bracelet-pic">
-                                    <span>ASOS</span>
-                                    <i>RMB 120</i>
-                                </div>
-                            </div>
-                            <div class="Shoes">
-                                <a href=""><img src="images/dress/Shoes.png" alt=""/></a>
-                                <div class="base-pic Shoes-pic">
-                                    <span>ZAZR</span>
-                                    <i>RMB 600</i>
-                                </div>
-                            </div>
-                            <div class="dress-waistcoat-5">
-                                <a href=""><img src="images/dress/dress-waistcoat-5.png" alt=""/></a>
-                                <div class="base-pic dress-waistcoat-5-pic">
-                                    <span>H.E BY MANGO</span>
-                                    <i>RMB 240</i>
-                                </div>
-                            </div>
-                            <div class="dress-trousers-3">
-                                <a href=""><img src="images/dress/dress-trousers-3.png" alt=""/></a>
-                                <div class="base-pic dress-trousers-3-pic">
-                                    <span>H.E BY MANGO</span>
-                                    <i>RMB 108</i>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <!--分页-->
-                <div class="trun-page">
-                    <i class="rturn-page"></i>
-                    <i class="next-page"></i>
-                </div>
-            </div>
-            <!--搭配end-->
         </div>
     </div>
 </div>
